@@ -11,5 +11,5 @@ const tiktokSchema = mongoose.Schema({
 });
 
 // Collection inside the database
-export default mongoose.model('tiktokVideos',
-tiktokSchema)
+export default mongoose.model('tiktokVideos', tiktokSchema);
+
